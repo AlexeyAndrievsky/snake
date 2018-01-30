@@ -12,11 +12,6 @@ namespace Snake
         public int y;
         public char sym;
 
-        public Point()
-        {
-            Console.WriteLine("Constructor test....");
-        }
-
         public Point(int _x, int _y, char _sym)
         {
             x = _x;
